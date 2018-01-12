@@ -27,4 +27,12 @@ Initially Arduino IDE dosen't have Addon by default ,so we have to install the A
 
 <pre> http://arduino.esp8266.com/stable/package_esp8266com_index.json </pre>
 
+
+![arduino-board-manager-link](https://user-images.githubusercontent.com/34485667/34893687-62adaa8c-f804-11e7-9b83-b9fb8b594853.png)
+
+
+Hit OK. Then navigate to the Board Manager by going to <b>Tools > Boards > Boards Manager</b>.There should be a couple new entries in addition to the standard Arduino boards. Look for <b>esp8266</b>. Click on that entry, then select <b>Install</b>.
+
+
+
 ___
