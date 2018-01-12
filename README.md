@@ -34,5 +34,11 @@ Initially Arduino IDE dosen't have Addon by default ,so we have to install the A
 Hit OK. Then navigate to the Board Manager by going to <b>Tools > Boards > Boards Manager</b>.There should be a couple new entries in addition to the standard Arduino boards. Look for <b>esp8266</b>. Click on that entry, then select <b>Install</b>.
 
 
+![arduino-board-install](https://user-images.githubusercontent.com/34485667/34894102-0d901fc4-f806-11e7-8a04-c6e0be9259ae.png)
+
+The board definitions and tools for the ESP8266 Thing include a whole new set of gcc, g++, and other reasonably large, compiled binaries, so it may take a few minutes to download and install (the archived file is ~110MB). Once the installation has completed, an Arduino-blue “INSTALLED” will appear next to the entry.
+
+Now go on <b> Tools > Boards </b> and Scroll down and select <b> NodeMCU 1.0 (ESP 12-E Module) </b> .  
+
 
 ___
