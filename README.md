@@ -20,4 +20,11 @@ Further we will build Applets using IFTTT to Make Alexa & Google Assistant to co
 
 ___
 
+## Configuring Arduino IDE for ESP8266 based Dev Boards
 
+Initially Arduino IDE dosen't have Addon by default ,so we have to install the Addons for Esp8266 based Boards using Arduino Board Manager.To begin, we’ll need to update the board manager with a custom URL. Open up Arduino, then go to the Preferences 
+<b>(File > Preferences)</b>. Then, towards the bottom of the window, copy this URL into the “Additional Board Manager URLs” text box:
+
+<pre> http://arduino.esp8266.com/stable/package_esp8266com_index.json </pre>
+
+___
