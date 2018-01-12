@@ -51,4 +51,7 @@ folder inside your Arduino folder.
 Open mqtt.ino and Connect your NodeMCU to your computer and go to <b>tools > Port</b> 
 and select COM port and compile & load the code to your dev. board
 
+![nodemcu_pins](https://user-images.githubusercontent.com/34485667/34895006-b9a297f8-f809-11e7-94f8-736550533f9a.png)
+
+Pin diagram given above will Assist you to map GPIO pin number to your on Board Pin names.
 ___
