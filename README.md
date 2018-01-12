@@ -12,3 +12,12 @@ of various IoT devices we see is Market.
 
 Those who don't know much about Mqtt Protocol can refer the PDF uploaded above to get basic insight of ,how the Protocol
 works.
+
+We will use Adafruit io as our Broker in Mqtt system ,which provides free Mqtt cloud based Broker Service and NodeMCU based
+IoT device as client.
+
+Further we will build Applets using IFTTT to Make Alexa & Google Assistant to control our IoT device
+
+___
+
+
