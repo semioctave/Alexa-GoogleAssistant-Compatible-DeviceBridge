@@ -69,4 +69,17 @@ Set Baud Rate of Serial Monitor 115200 for syncing Serial Communication.
 
 Pin diagram given above will Assist you to map GPIO pin number to your on Board Pin names.
 ___
+ ## Establishing IFTTT
+ 
+ Sign up on IFTTT and Make your account on [IFTTT](https://ifttt.com/).
+ 
+ ![screenshot 10](https://user-images.githubusercontent.com/34485667/34896129-9752dfb4-f80e-11e7-97cd-d6325e990769.png)
 
+Login to your Account go on Applets Create Applets Accordingly Choosing triggers as Alexa & Google Assistant respectively 
+and response as Adafruit IO and select Appropriate feeds. Finally Switch on your Applets & you are done
+
+![screenshot 9](https://user-images.githubusercontent.com/34485667/34896308-57fe872c-f80f-11e7-83fb-11791b68307c.png)
+
+Now your device is ready to work so connect your device to your Router 
+
+### Welcome to the world of IoT
