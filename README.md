@@ -43,15 +43,30 @@ Now go on <b> Tools > Boards </b> and Scroll down and select <b> NodeMCU 1.0 (ES
 
 ___
 
+## Broker Adafruit io
+
+First of all you need to make Account on  [Adafruit io](https://io.adafruit.com/) .
+
+![screenshot 7](https://user-images.githubusercontent.com/34485667/34895622-9cccf0e4-f80c-11e7-8ae6-467993e205cf.png)
+
+login to your Adafruit io Account and go on<b> dashboard</b> and Click on create new option and from various type select toggle feed and the enter feed name
+
+![screenshot 6](https://user-images.githubusercontent.com/34485667/34895765-1d4028a4-f80d-11e7-972a-2f688a401735.png)
+
+now your Broker is established copy username and key and put them into the code mqtt.ino  
+___
 ## Burning Code On Node MCU
 
 First take above two libraries file provided by vendors itself which are Arduino & Adafruit and put them in the <b>Libraries</b>
 folder inside your Arduino folder. 
 
-Open mqtt.ino and Connect your NodeMCU to your computer and go to <b>tools > Port</b> 
+Open mqtt.ino & put your Router SSID & Password , also put your AIO username & Key into it. Connect your NodeMCU to your computer and go to <b>tools > Port</b> 
 and select COM port and compile & load the code to your dev. board
+
+Set Baud Rate of Serial Monitor 115200 for syncing Serial Communication.
 
 ![nodemcu_pins](https://user-images.githubusercontent.com/34485667/34895006-b9a297f8-f809-11e7-94f8-736550533f9a.png)
 
 Pin diagram given above will Assist you to map GPIO pin number to your on Board Pin names.
 ___
+
