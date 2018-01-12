@@ -42,3 +42,13 @@ Now go on <b> Tools > Boards </b> and Scroll down and select <b> NodeMCU 1.0 (ES
 
 
 ___
+
+## Burning Code On Node MCU
+
+First take above two libraries file provided by vendors itself which are Arduino & Adafruit and put them in the <b>Libraries</b>
+folder inside your Arduino folder. 
+
+Open mqtt.ino and Connect your NodeMCU to your computer and go to <b>tools > Port</b> 
+and select COM port and compile & load the code to your dev. board
+
+___
